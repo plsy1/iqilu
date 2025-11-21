@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 
 const BATCH_SIZE = 100;
-const MAX_ORGID = 1000;
+const MAX_ORGID = 700;
 
 async function fetchOrgId(orgId) {
   return new Promise((resolve) => {
