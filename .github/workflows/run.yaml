@@ -25,6 +25,7 @@ jobs:
           node 1.js
           node 2.js
           node 3.js
+          node 4.js
 
       - name: Set Git author
         run: |
