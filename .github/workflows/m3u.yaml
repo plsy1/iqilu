@@ -23,6 +23,7 @@ jobs:
       - name: Run scripts
         run: |
           node 3.js
+          node 4.js
 
       - name: Set Git author
         run: |
