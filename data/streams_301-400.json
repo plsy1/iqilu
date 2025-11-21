@@ -1,0 +1,91 @@
+[
+  {
+    "orgId": 301,
+    "index": 0,
+    "name": "汶上综合频道",
+    "icon": "https://img11.iqilu.com/301/2022/10/15/b65e52f8ae484da5af0c219f17948178.png",
+    "stream": "https://alivealone302.litenews.cn/301/8fa2e7efd2fb46079bd305cecc58904d/playlist.m3u8?k=4a56d33de8c88495156ff15fe788ccf7&t=1763708471",
+    "desc": "汶上综合频道",
+    "id": 1,
+    "cateid": 0,
+    "program": 1,
+    "share": {
+      "title": "汶上综合频道",
+      "image": "https://img11.iqilu.com/301/2022/10/15/b65e52f8ae484da5af0c219f17948178.png",
+      "url": "https://iapp.wstvs.com/share/dHZsLTMwMS0x.html",
+      "desc": "点击观看精彩节目"
+    }
+  },
+  {
+    "orgId": 303,
+    "index": 0,
+    "name": "济铁频道",
+    "icon": "https://img11.iqilu.com/303/2020/12/11/86ce406556d6525424675b60522d6a59.jpg",
+    "stream": "https://alivealone302.litenews.cn/303/8876f9ea0ce6400d9b1e54a129ff1c0c/playlist.m3u8?k=43a3ae611ac34eeff18608dd4c2b0f20&t=1763708471",
+    "desc": "济铁频道",
+    "id": 1,
+    "cateid": 0,
+    "program": 1,
+    "share": {
+      "title": "济铁频道",
+      "image": "https://img11.iqilu.com/303/2020/12/11/86ce406556d6525424675b60522d6a59.jpg",
+      "url": "https://jnjapp.jntlj.com/share/dHZsLTMwMy0x.html",
+      "desc": "点击观看精彩节目"
+    }
+  },
+  {
+    "orgId": 305,
+    "index": 0,
+    "name": "综合频道",
+    "icon": "https://img11.iqilu.com/305/2021/05/07/5a4752e61c5c2c074490119ceb0dc641.png",
+    "stream": "https://alivealone302.litenews.cn/305/6b3c364e18a348ed865f67eaf2cdb724/playlist.m3u8?k=1b9eeedafb01751c52390d907e3b0f18&t=1763708472",
+    "desc": "胶州广播电视台综合频道作为胶州市新闻宣传主阵地，始终坚持党的领导，坚持围绕中心、服务大局，以新闻、专题等公共服务类栏目为主干，传递政声民意，引导社会舆论，推动工作落实，为经济社会高质量发展提供坚强舆论支持和精神动力。",
+    "id": 1,
+    "logo": "https://img11.iqilu.com/305/2021/05/07/5a4752e61c5c2c074490119ceb0dc641.png",
+    "state": 1,
+    "cateid": 0,
+    "program": 1,
+    "share": {
+      "title": "综合频道",
+      "image": "https://img11.iqilu.com/305/2021/05/07/5a4752e61c5c2c074490119ceb0dc641.png",
+      "url": "https://iapp.yunshangjiaozhou.cn/share/dHZsLTMwNS0x.html",
+      "desc": "点击观看精彩节目"
+    }
+  },
+  {
+    "orgId": 305,
+    "index": 1,
+    "name": "生活频道",
+    "icon": "https://img11.iqilu.com/305/2021/05/07/b2777021f2fa88dc90500d50b23b6b2d.png",
+    "stream": "https://alivealone302.litenews.cn/305/c663c037b5c345cdbe92a1e77e4c8710/playlist.m3u8?k=f48b4440478567ebd150a849d9fbbdda&t=1763708472",
+    "desc": "胶州广播电视台生活频道作为生活服务主阵地，坚持以人民为中心的工作理念，以生活服务类栏目为主干，关注民生热点，服务大众生活，锚定增强文化自觉、坚定文化自信目标任务，努力提供丰富多彩、质量优秀的影视文化作品，更好满足人民群众日益增长的精神文化需求。",
+    "id": 3,
+    "logo": "https://img11.iqilu.com/305/2021/05/07/b2777021f2fa88dc90500d50b23b6b2d.png",
+    "state": 1,
+    "cateid": 0,
+    "program": 1,
+    "share": {
+      "title": "生活频道",
+      "image": "https://img11.iqilu.com/305/2021/05/07/b2777021f2fa88dc90500d50b23b6b2d.png",
+      "url": "https://iapp.yunshangjiaozhou.cn/share/dHZsLTMwNS0z.html",
+      "desc": "点击观看精彩节目"
+    }
+  },
+  {
+    "orgId": 353,
+    "index": 0,
+    "name": "济铁频道",
+    "icon": "https://img11.iqilu.com/353/2022/03/16/c64c54f1bf565eabe2563b8c79ecd2b6.jpg",
+    "stream": "https://jsylivealone302.iqilu.com/jitie/jitie_tv01/index.m3u8?t=1763712089&k=a045214d0f061b18b4f49a8e2daf7d25",
+    "desc": "",
+    "id": 1,
+    "cateid": 0,
+    "program": 1,
+    "share": {
+      "title": "济铁频道",
+      "image": "https://img11.iqilu.com/353/2022/03/16/c64c54f1bf565eabe2563b8c79ecd2b6.jpg",
+      "url": "https://app.litenews.cn/share/dHZsLTM1My0x.html",
+      "desc": "点击观看精彩节目"
+    }
+  }
+]

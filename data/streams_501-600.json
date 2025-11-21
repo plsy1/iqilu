@@ -1,0 +1,59 @@
+[
+  {
+    "orgId": 519,
+    "index": 0,
+    "name": "新闻综合频道",
+    "icon": "https://img11.iqilu.com/179/2019/12/10/8203f05252f2875d46a5d74ec804cf43.jpg",
+    "logo": "https://img11.iqilu.com/179/2019/12/10/8203f05252f2875d46a5d74ec804cf43.jpg",
+    "stream": "https://alivealone302.litenews.cn/179/0d4aa29109194c9d8da23cc044614538/playlist.m3u8?k=15b3796e70aa857f212de6c71e284892&t=1763708547",
+    "desc": "新闻综合频道",
+    "id": 18,
+    "state": 1,
+    "cateid": 0,
+    "program": 1,
+    "share": {
+      "title": "新闻综合频道",
+      "image": "https://img11.iqilu.com/179/2019/12/10/8203f05252f2875d46a5d74ec804cf43.jpg",
+      "url": "https://app.litenews.cn/share/dHZsLTUxOS0xOA.html",
+      "desc": "点击观看精彩节目"
+    }
+  },
+  {
+    "orgId": 519,
+    "index": 1,
+    "name": "经济生活频道",
+    "icon": "https://img11.iqilu.com/179/2019/12/10/b1a10dda1e3a2b59265641d0a20a10b7.jpg",
+    "logo": "https://img11.iqilu.com/179/2019/12/10/b1a10dda1e3a2b59265641d0a20a10b7.jpg",
+    "stream": "https://alivealone302.litenews.cn/179/889af08ba99f4f29a3f50b21a75a1670/playlist.m3u8?k=57505e27170bb13e00da9ef95ad21f6e&t=1763708547",
+    "desc": "经济生活频道",
+    "id": 20,
+    "state": 1,
+    "cateid": 0,
+    "program": 1,
+    "share": {
+      "title": "经济生活频道",
+      "image": "https://img11.iqilu.com/179/2019/12/10/b1a10dda1e3a2b59265641d0a20a10b7.jpg",
+      "url": "https://app.litenews.cn/share/dHZsLTUxOS0yMA.html",
+      "desc": "点击观看精彩节目"
+    }
+  },
+  {
+    "orgId": 519,
+    "index": 2,
+    "name": "图文频道",
+    "icon": "https://img11.iqilu.com/179/2020/12/30/0ea68ecfb36ae47e4a6f78f03b40fbfd.jpg",
+    "logo": "https://img11.iqilu.com/179/2020/12/30/0ea68ecfb36ae47e4a6f78f03b40fbfd.jpg",
+    "stream": "https://alivealone302.litenews.cn/179/889af08ba99f4f29a3f50b21a75a1670/playlist.m3u8?k=57505e27170bb13e00da9ef95ad21f6e&t=1763708547",
+    "desc": "图文频道",
+    "id": 22,
+    "state": 1,
+    "cateid": 0,
+    "program": 1,
+    "share": {
+      "title": "图文频道",
+      "image": "https://img11.iqilu.com/179/2020/12/30/0ea68ecfb36ae47e4a6f78f03b40fbfd.jpg",
+      "url": "https://app.litenews.cn/share/dHZsLTUxOS0yMg.html",
+      "desc": "点击观看精彩节目"
+    }
+  }
+]

@@ -1,0 +1,81 @@
+[
+  {
+    "orgId": 421,
+    "index": 0,
+    "name": "潍坊高新区",
+    "icon": "https://img11.iqilu.com/421/2022/09/26/43ddf0d03c3d51602cc981f214ef0ddf.jpeg",
+    "stream": "https://alivealone302.litenews.cn/421/73c76d35421345028653ea23a53db553/playlist.m3u8?k=7549b94b9751143674fbcb3523fee5c1&t=1763708513",
+    "desc": "“潍坊高新频道”是潍坊国家高新技术产业开发区官方电视频道。",
+    "id": 14,
+    "state": 1,
+    "logo": "https://img11.iqilu.com/421/2022/09/26/43ddf0d03c3d51602cc981f214ef0ddf.jpeg",
+    "cateid": 0,
+    "program": 1,
+    "share": {
+      "title": "潍坊高新区",
+      "image": "https://img11.iqilu.com/421/2022/09/26/43ddf0d03c3d51602cc981f214ef0ddf.jpeg",
+      "url": "https://iapp.wegood.wang/share/dHZsLTQyMS0xNA.html",
+      "desc": "点击观看精彩节目"
+    }
+  },
+  {
+    "orgId": 423,
+    "index": 0,
+    "name": "综合频道",
+    "icon": "",
+    "logo": "",
+    "stream": "https://alivealone302.litenews.cn/305/c663c037b5c345cdbe92a1e77e4c8710/playlist.m3u8?k=2a712cfa8222c3dffd624b6bf6179fe9&t=1763708513",
+    "desc": "1",
+    "reviewStream": "",
+    "id": 3,
+    "state": 1,
+    "cateid": 0,
+    "program": 1,
+    "share": {
+      "title": "综合频道",
+      "image": "",
+      "url": "https://app.litenews.cn/share/dHZsLTQyMy0z.html",
+      "desc": "点击观看精彩节目"
+    }
+  },
+  {
+    "orgId": 423,
+    "index": 1,
+    "name": "新闻频道",
+    "icon": "",
+    "logo": "",
+    "stream": "https://alivealone302.litenews.cn/305/6b3c364e18a348ed865f67eaf2cdb724/playlist.m3u8?k=8a212981fefa05140e382c270e861e38&t=1763708513",
+    "desc": "0",
+    "reviewStream": "",
+    "id": 1,
+    "state": 1,
+    "cateid": 0,
+    "program": 1,
+    "share": {
+      "title": "新闻频道",
+      "image": "",
+      "url": "https://app.litenews.cn/share/dHZsLTQyMy0x.html",
+      "desc": "点击观看精彩节目"
+    }
+  },
+  {
+    "orgId": 423,
+    "index": 2,
+    "name": "娱乐频道",
+    "icon": "",
+    "logo": "",
+    "stream": "https://alivealone302.litenews.cn/305/c663c037b5c345cdbe92a1e77e4c8710/playlist.m3u8?k=2a712cfa8222c3dffd624b6bf6179fe9&t=1763708513",
+    "desc": "3",
+    "reviewStream": "",
+    "id": 5,
+    "state": 1,
+    "cateid": 0,
+    "program": 1,
+    "share": {
+      "title": "娱乐频道",
+      "image": "",
+      "url": "https://app.litenews.cn/share/dHZsLTQyMy01.html",
+      "desc": "点击观看精彩节目"
+    }
+  }
+]
