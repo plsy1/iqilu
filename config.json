@@ -1,5 +1,5 @@
 {
-  "baseUrl": "https://raw.githubusercontent.com/k-web/ku9/js/plsy1/iqilu/main/iqilu.js/",
+  "baseUrl": "https://fastly.jsdelivr.net/k-web/ku9/js/gh/plsy1/iqilu@master/iqilu.js/",
   "blacklistNames": ["CCTV", "中央一套", "金山防盗链", "测试"],
   "blacklistOrgIds": [21, 29]
 }
