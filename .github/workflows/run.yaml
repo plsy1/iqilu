@@ -1,8 +1,6 @@
 name: fetch raw and generate m3u
 
 on:
-  # push:
-  #   branches: [main]
   workflow_dispatch:
 
 jobs:
@@ -22,9 +20,10 @@ jobs:
 
       - name: Run scripts
         run: |
-          node 1.js
-          node 2.js
-          node 3.js
+          node fetch-metadata.js
+          node merge-metadata.js
+          node actions/gen-m3u-generic.js
+          node actions/gen-m3u-ku9.js
       - name: Set Git author
         run: |
           git config user.name 'github-actions[bot]'
