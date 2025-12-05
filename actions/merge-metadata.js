@@ -2,8 +2,8 @@ const fs = require('fs');
 const path = require('path');
 
 
-const folder = path.join(__dirname, 'data');
-const outputFile = path.join(__dirname, 'streams_all.json');
+const folder = path.join(__dirname, '../data');
+const outputFile = path.join(__dirname, '../data/streams_all.json');
 
 const files = fs.readdirSync(folder)
   .filter(file => /^streams_\d+-\d+\.json$/.test(file))

@@ -1,10 +1,14 @@
 const fs = require('fs');
+const path = require("path");
 
-const config = JSON.parse(fs.readFileSync('config.json', 'utf-8'));
+const configPath = path.join(__dirname, '../', `config.json`);
+const config = JSON.parse(fs.readFileSync(configPath, 'utf-8'));
+
 const blacklistNames = config.blacklistNames || [];
 const blacklistOrgIds = config.blacklistOrgIds || [];
 
-const data = JSON.parse(fs.readFileSync('streams_all.json', 'utf-8'));
+const dataPath = path.join(__dirname, '../data', `streams_all.json`);
+const data = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
 
 const filtered = data.filter(item => {
   const name = item.name || '';
