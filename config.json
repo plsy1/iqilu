@@ -1,5 +1,5 @@
 {
-  "baseUrl_ku9": "https://fastly.jsdelivr.net/k-web/ku9/js/gh/plsy1/iqilu@master/iqilu.js/",
+  "baseUrl_ku9": "https://fastly.jsdelivr.net/k-web/ku9/js/gh/plsy1/iqilu@master/ku9/iqilu.js/",
   "baseUrl_generic": "https://iqilu.vercel.app/",
   "blacklistNames": ["CCTV", "中央一套", "金山防盗链", "测试"],
   "blacklistOrgIds": [21, 29]
