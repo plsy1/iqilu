@@ -1,5 +1,5 @@
 {
-  "baseUrl": "https://iqilu.vercel.app/",
+  "baseUrl": "https://raw.githubusercontent.com/k-web/ku9/js/plsy1/iqilu/main/iqilu.js/",
   "blacklistNames": ["CCTV", "中央一套", "金山防盗链", "测试"],
   "blacklistOrgIds": [21, 29]
 }

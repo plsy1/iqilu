@@ -1,40 +1,53 @@
-export default async function handler(req, res) {
-  const API_TOKEN = process.env.API_TOKEN;
+function main(item) {
+    const orgid = item.orgid;
+    const num = parseInt(item.num, 10);
 
-  if (API_TOKEN) {
-    const ua = req.headers['user-agent'] || '';
-    if (!ua.includes(API_TOKEN)) {
-      return res.status(403).send('Forbidden');
+    if (!orgid) {
+        return { error: "缺少 orgid 参数" };
     }
-  }
+    if (isNaN(num)) {
+        return { error: "num 参数无效" };
+    }
 
-  const orgid = req.query.orgid;
-  const num = parseInt(req.query.num, 10);
+    const api = `https://app.litenews.cn/v1/app/play/tv/live?orgid=${orgid}`;
 
-  if (!orgid) {
-    return res.status(400).send("Missing orgid parameter");
-  }
-  if (isNaN(num)) {
-    return res.status(400).send("Invalid num parameter");
-  }
+    const headers = {
+    "User-Agent": "Mozilla/5.0 ...",
+    "Referer": "https://app.litenews.cn/",
+    "Accept": "application/json, text/plain, */*"
+    };
 
-  try {
-    const response = await fetch(`https://app.litenews.cn/v1/app/play/tv/live?orgid=${orgid}`);
-    const data = await response.json();
+
+    const res = ku9.request(api, "GET", 
+        headers,
+        "",
+        false
+    );
+
+    if (res.code !== 200) {
+        return { error: "请求直播接口失败" };
+    }
+
+    let data;
+    try {
+        data = JSON.parse(res.body);
+    } catch(e) {
+        return { error: "返回数据解析失败" };
+    }
 
     if (!data.data || !Array.isArray(data.data) || data.data.length === 0) {
-      return res.status(404).send("No streams found for this orgid");
+        return { error: "该 orgid 无可用直播流" };
     }
 
     if (num < 0 || num >= data.data.length) {
-      return res.status(400).send(`num out of range, valid range: 0-${data.data.length - 1}`);
+        return { error: `num 超出范围：0-${data.data.length - 1}` };
     }
 
-    const stream = data.data[num].stream;
+    const url = data.data[num].stream;
 
-    res.writeHead(302, { Location: stream });
-    res.end();
-  } catch (err) {
-    res.status(500).send(err.message);
-  }
+    if (!url) {
+        return { error: "未获取到直播流地址" };
+    }
+
+    return { url: url };
 }
