@@ -13,7 +13,7 @@
 1. 克隆本仓库
 2. 点击下面按钮，创建 Project，选择刚刚克隆的仓库进行部署
 3. 在克隆的仓库里开启 Actions
-4. 修改 config.json 文件中 baseUrl-ku9 的值，Actions 会自动运行，生成新的 m3u
+4. 修改 config.json 文件中 baseUrl-generic 的值，Actions 会自动运行，生成新的 m3u
 5. 复制 m3u 文件，导入播放器播放
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com)
